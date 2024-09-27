@@ -1,0 +1,141 @@
+/* Copor da pagina */
+@charset"utf-8" ; 
+body {
+    font-family: arial,sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #333;
+}
+/* cabeçalho */
+.header-container {
+    display: flex; /* Usa flexbox para alinhar os itens horizontalmente */
+    align-items: center; /* Alinha verticalmente os itens ao centro */
+    justify-content: center; /* Centraliza o conteúdo */
+    margin-bottom: 20px; /* Espaço abaixo do cabeçalho */
+}
+img {
+    width: 150px ;
+    margin-right: 20px;
+    border-radius: 10%;
+}
+header {
+    background: color 333px; ;
+    color: #000000;
+    padding: 20px;
+    text-align: center;
+}
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+header p {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+nav ul li a {
+    color: #ffffff;
+    background-color: #000000;
+    text-decoration:  none;
+    padding: 5px 10px;
+    margin: 0px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+/* seções*/
+
+section {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    background-color: #ffffff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding-bottom: 5px;
+}
+section h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #000000;
+    padding-bottom: 5px;
+
+}
+/* itens de experiencia */
+
+.experiencia-item {
+    margin-bottom: 20px;
+}
+.experiencia-item h3 {
+    margin: 0;
+    font-size: 1.5em;
+    color: #333;
+}
+
+/* Lista de Habilidades */
+#html {
+    transition: background-color 0.3s;
+}
+#html a:hover {
+    background-color: rgb(94, 94, 94);
+}
+#habilidades ul {
+    list-style-type:none ;
+    padding: 0;
+}
+#habilidades ul li {
+    
+    color: #020202;
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+/*seção de contato */
+#contato p {
+    font-size: 1.2em;
+    margin: 5px 0;
+}
+/* Rodapé */
+footer{
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    margin-top: 20px;
+}
+#ig {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #942121;
+    color: white; /* Cor do link */
+    text-decoration: none; /* Remove sublinhado */
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+#ig a:hover{
+    background-color:rgb(94,94,94);
+}
+
+#ig a:link, 
+#ig a:visited, 
+#ig a:hover, 
+#ig a:active {
+    background-color: #000000;
+    color: white; /* Garante que a cor do texto seja branca */
+    text-decoration: none; /* Remove o sublinhado para todos os estados */
+}
+
+footer p{
+    margin: 0;
+}
